@@ -3,7 +3,7 @@
 # 총점, 평균, 학점을 처리한 뒤 결과 출력
 # 단, 학점은 삼항연산자를 이용해서 계산한다
 # 변수 = 참일때 값 if 조건식 else 거짓일때 값
-from sys import api_version
+from sys import api_version1
 
 # 입력
 # 이름, 국어, 영어, 수학 점수를 변수로 설정

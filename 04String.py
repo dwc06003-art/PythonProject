@@ -3,7 +3,7 @@
 # 문자열 포매팅 사용하기 전
 print('Hello, World~!!')
 print('Hello, Python~!!')
-# ---
+# ----
 say = 'World'
 print('Hello, ' + say + '~!!')
 say = 'Python'
