@@ -63,3 +63,27 @@ for i in range(3, 100+1, 3):
         print(i, end = ' ')
 print()
 
+# for문은 유한한 반복을 염두에 두고 설계
+# 그래도, 무한루프를 만들고 싶다면 itertools, iter함수를 이용
+i = 1
+for _ in iter(int, 1):
+    if i == 9999999: break
+    print(i, end = ' ')
+    i += 1
+print()
+
+
+import itertools
+
+for i in itertools.count():
+    if i == 99999: break
+    print(i, end = ' ')
+print()
+
+# for (i = 0; i <=10; ++i) {
+#   print(i)
+# }
+
+# for (;;) {
+#   print(i)
+# }
