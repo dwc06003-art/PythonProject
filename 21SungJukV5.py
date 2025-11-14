@@ -59,7 +59,7 @@ while True:
                 result += f'{name:5s} {kor:4d} {eng:4d} {math:4d}'\
                      f' {tot:4d}  {avg:.2f} {grd:3s}\n'
 
-                print(f'{header}{result}')
+            print(f'{header}{result}')
 
         case '3':print('성적데이터 상세조회를 진행합니다...')
         case '4':print('성적데이터 수정을 진행합니다...')
